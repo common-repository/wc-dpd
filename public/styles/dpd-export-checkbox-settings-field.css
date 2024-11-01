@@ -1,0 +1,10 @@
+.js-dpd__max-weight-field, .js-dpd__alzabox-weight-field, .js-dpd__future-xxxbox-weight-field, .js-dpd__max-width-field, .js-dpd__max-height-field, .js-dpd__max-length-field, .js-dpd__alzabox-size-field, .js-dpd__future-xxxbox-size-field {
+  display: none;
+  transition: display 0.3s;
+}
+.js-dpd-weight-limit-for-packages:checked ~ .js-dpd__max-weight-field, .js-dpd-weight-limit-for-packages:checked ~ .js-dpd__alzabox-weight-field, .js-dpd-weight-limit-for-packages:checked ~ .js-dpd__future-xxxbox-weight-field {
+  display: block;
+}
+.js-dpd-size-limit-for-packages:checked ~ .js-dpd__max-width-field, .js-dpd-size-limit-for-packages:checked ~ .js-dpd__max-height-field, .js-dpd-size-limit-for-packages:checked ~ .js-dpd__max-length-field, .js-dpd-size-limit-for-packages:checked ~ .js-dpd__alzabox-size-field, .js-dpd-size-limit-for-packages:checked ~ .js-dpd__future-xxxbox-size-field {
+  display: block;
+}

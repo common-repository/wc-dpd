@@ -1,0 +1,638 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DPD SK for WooCommerce - 7.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-05 21:34+0200\n"
+"PO-Revision-Date: 2024-09-05 21:34+0200\n"
+"Last-Translator: \n"
+"Language-Team: Slovenčina\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: wc-dpd\n"
+
+#: includes/Ajax.php:46
+msgid "Please fill all the required fields."
+msgstr "Prosím vyplňte všetky povinné polia."
+
+#: includes/Ajax.php:76
+msgid ""
+"No parcelshops was found. Try changing the input values and search again."
+msgstr ""
+"Nenašli sa žiadne DPD Pickup/Pickup Station. Skúste zmeniť vstupné hodnoty a "
+"znova vyhľadajte."
+
+#: includes/Assets.php:50
+msgid "Please fill all the fields above!"
+msgstr "Prosím vyplňte všetky polia vyššie!"
+
+#: includes/Assets.php:51
+msgid "Please select one of the available parcelshops!"
+msgstr "Vyberte si prosím jeden z dostupných DPD Pickup/Pickup Station miest!"
+
+#: includes/Client.php:40
+#, php-format
+msgid "Use the correct request method. Possible values are: %s"
+msgstr "Použite správnu metódu žiadosti. Možné hodnoty sú: %s"
+
+#: includes/Client.php:69
+#, php-format
+msgid "Something went wrong: %s"
+msgstr "Niečo sa pokazilo: %s"
+
+#: includes/Client.php:73
+msgid "Something went wrong! Response is empty!"
+msgstr "Niečo sa pokazilo! Odpoveď je prázdna!"
+
+#: includes/Client.php:125
+msgid "Something went wrong!"
+msgstr "Niečo sa pokazilo!"
+
+#: includes/DpdExportSettings.php:37 includes/DpdExportSettings.php:39
+msgid "DPD Export Settings"
+msgstr "DPD nastavenia exportu"
+
+#: includes/DpdExportSettings.php:38
+msgid "Default settings for DPD export"
+msgstr "Predvolené nastavenia pre DPD export"
+
+#: includes/DpdExportSettings.php:71
+msgid "Choose"
+msgstr "Vybrať"
+
+#: includes/DpdExportSettings.php:72
+msgid "DPD Classic"
+msgstr "DPD Classic"
+
+#: includes/DpdExportSettings.php:73
+msgid "DPD Home"
+msgstr "DPD Home"
+
+#: includes/DpdExportSettings.php:74
+msgid "DPD 10:00"
+msgstr "DPD 10:00"
+
+#: includes/DpdExportSettings.php:75
+msgid "DPD 12:00"
+msgstr "DPD 12:00"
+
+#: includes/DpdExportSettings.php:76
+msgid "DPD 18:00 / DPD Guarantee"
+msgstr "DPD 18:00 / DPD Guarantee"
+
+#: includes/DpdExportSettings.php:174
+msgid "ID delis"
+msgstr "ID delis"
+
+#: includes/DpdExportSettings.php:175
+msgid "This is the username you got from DPD to login to their service"
+msgstr ""
+"Toto je používateľské meno, ktoré ste dostali od spoločnosti DPD na "
+"prihlásenie do ich služby"
+
+#: includes/DpdExportSettings.php:176
+msgid "Unique customer identifier assigned by DPD."
+msgstr "Jedinečný identifikátor zákazníka pridelený spoločnosťou DPD."
+
+#: includes/DpdExportSettings.php:181
+msgid "Client email"
+msgstr "E-mail klienta"
+
+#: includes/DpdExportSettings.php:185
+msgid "API key"
+msgstr "API kľúč"
+
+#: includes/DpdExportSettings.php:186
+msgid "Your api key"
+msgstr "Kľúč API"
+
+#: includes/DpdExportSettings.php:187
+msgid "Unique authentication key required to access API."
+msgstr "Jedinečný autentifikačný kľúč potrebný na prístup k rozhraniu API."
+
+#: includes/DpdExportSettings.php:192
+msgid "Bank account ID"
+msgstr "ID bankového účtu"
+
+#: includes/DpdExportSettings.php:195
+msgid "Bank account"
+msgstr "Bankový účet"
+
+#: includes/DpdExportSettings.php:196
+msgid "Add bank account"
+msgstr "Pridať bankový účet"
+
+#: includes/DpdExportSettings.php:197
+msgid "Select your default bank account."
+msgstr "Vyberte svoj predvolený bankový účet."
+
+#: includes/DpdExportSettings.php:200
+msgid "ID of the collection address"
+msgstr "ID adresy pre zber"
+
+#: includes/DpdExportSettings.php:203
+msgid "Address"
+msgstr "Adresa"
+
+#: includes/DpdExportSettings.php:204
+msgid "Add address"
+msgstr "Pridať adresu"
+
+#: includes/DpdExportSettings.php:205
+msgid "Select your default address."
+msgstr "Vyberte svoju predvolenú adresu."
+
+#: includes/DpdExportSettings.php:208
+msgid "Transport"
+msgstr "Doprava"
+
+#: includes/DpdExportSettings.php:214
+msgid "Notifications"
+msgstr "Notifikácie"
+
+#: includes/DpdExportSettings.php:220
+msgid "Labels format"
+msgstr "Formát štítkov"
+
+#: includes/DpdExportSettings.php:229
+msgid "Enable Map Widget"
+msgstr "Povoliť widget mapy"
+
+#: includes/DpdExportSettings.php:232
+msgid ""
+"Enable this option to display the map widget. If enabled, a valid Map API "
+"Key is required for the widget to function properly."
+msgstr ""
+"Povoľte túto možnosť pre zobrazenie widgetu mapy. Ak je povolená, pre "
+"správne fungovanie widgetu je potrebný platný kľúč Map API."
+
+#: includes/DpdExportSettings.php:236
+msgid "Map API Key"
+msgstr "API kľúč mapy"
+
+#: includes/DpdExportSettings.php:238
+msgid ""
+"Enter a valid DPD Map API Key. This is required if the Map Widget is enabled."
+msgstr ""
+"Zadajte platný API kľúč pre DPD Mapu Toto pole je povinné, ak je povolený "
+"widget mapy."
+
+#: includes/DpdExportSettings.php:283
+#: includes/DpdParcelShopShippingMethod.php:495
+msgid "Remove"
+msgstr "Odstrániť"
+
+#: includes/DpdExportSettings.php:284
+#: includes/DpdParcelShopShippingMethod.php:496
+msgid "Title"
+msgstr "Názov"
+
+#: includes/DpdExportSettings.php:285
+msgid "Value"
+msgstr "Hodnota"
+
+#: includes/DpdParcelShopShippingMethod.php:57
+msgid "DPD parcelshop"
+msgstr "DPD Pickup/Pickup Station"
+
+#: includes/DpdParcelShopShippingMethod.php:58
+msgid "Allow customers to deliver to the DPD parcelshops."
+msgstr "Umožnite zákazníkom doručovať zásielky do DPD Pickup/Pickup Station."
+
+#: includes/DpdParcelShopShippingMethod.php:80
+msgid "DPD Pickup/Pickup Station"
+msgstr "DPD Pickup/Pickup Station"
+
+#: includes/DpdParcelShopShippingMethod.php:107
+msgid "Tax status"
+msgstr "Zdaniteľnosť"
+
+#: includes/DpdParcelShopShippingMethod.php:112
+msgctxt "Tax status"
+msgid "None"
+msgstr "Nezdaňuje sa"
+
+#: includes/DpdParcelShopShippingMethod.php:113
+msgid "Taxable"
+msgstr "Zdaniteľný"
+
+#: includes/DpdParcelShopShippingMethod.php:117
+msgid "Shipping type"
+msgstr "Typ dopravy"
+
+#: includes/DpdParcelShopShippingMethod.php:120
+msgid "Fixed shipping price"
+msgstr "Pevná cena dopravy"
+
+#: includes/DpdParcelShopShippingMethod.php:121
+msgid "Products weight based shipping price"
+msgstr "Sadzba dopravy podľa hmotnosti produktov"
+
+#: includes/DpdParcelShopShippingMethod.php:123
+msgid "Choose type of the shipping."
+msgstr "Vyberte typ dopravy."
+
+#: includes/DpdParcelShopShippingMethod.php:128
+msgid "Delivery fee"
+msgstr "Poplatok"
+
+#: includes/DpdParcelShopShippingMethod.php:130
+msgid "What fee do you want to charge for shipping to the parcelshop."
+msgstr "Aký poplatok chcete účtovať za prepravu do DPD Pickup/Pickup Station."
+
+#: includes/DpdParcelShopShippingMethod.php:137
+msgid "Free shipping from"
+msgstr "Doprava zdarma od"
+
+#: includes/DpdParcelShopShippingMethod.php:139
+msgid "If you exceed the price in the cart, shipping will be free."
+msgstr "Ak prekročíte cenu v košíku, poštovné bude zadarmo."
+
+#: includes/DpdParcelShopShippingMethod.php:146
+msgid "Products weight based shipping rates"
+msgstr "Sadzby dopravy podľa hmotnosti produktov"
+
+#: includes/DpdParcelShopShippingMethod.php:148
+msgid "Add shipping rates based on the weight of products in the cart."
+msgstr "Pridajte sadzby za dopravu na základe hmotnosti produktov v košíku."
+
+#: includes/DpdParcelShopShippingMethod.php:150
+msgid "Shipping rate"
+msgstr "Sadzba za prepravu"
+
+#: includes/DpdParcelShopShippingMethod.php:151
+#, php-format
+msgid "Min weight (%s)"
+msgstr "Min. hmotnosť (%s)"
+
+#: includes/DpdParcelShopShippingMethod.php:152
+#, php-format
+msgid "Max weight (%s)"
+msgstr "Max. hmotnosť (%s)"
+
+#: includes/DpdParcelShopShippingMethod.php:153
+#: includes/DpdParcelShopShippingMethod.php:156
+msgid "Price"
+msgstr "Cena"
+
+#: includes/DpdParcelShopShippingMethod.php:153
+msgid "with"
+msgstr "s"
+
+#: includes/DpdParcelShopShippingMethod.php:153
+msgid "without"
+msgstr "bez"
+
+#: includes/DpdParcelShopShippingMethod.php:153
+msgid "tax"
+msgstr "DPH"
+
+#: includes/DpdParcelShopShippingMethod.php:154
+msgid "Min weight"
+msgstr "Min. hmotnosť"
+
+#: includes/DpdParcelShopShippingMethod.php:155
+msgid "Max weight"
+msgstr "Max. hmotnosť"
+
+#: includes/DpdParcelShopShippingMethod.php:157
+msgid "Add a shipping rate"
+msgstr "Pridať sadzbu dopravy"
+
+#: includes/DpdParcelShopShippingMethod.php:161
+msgid "Setting the weight limits for packages"
+msgstr "Nastavenie hmotnostných limitov pre balíky"
+
+#: includes/DpdParcelShopShippingMethod.php:162
+msgid ""
+"If the shipment does not meet the conditions for delivery in a parcelbox, "
+"this shipping method will not be displayed."
+msgstr ""
+"Ak zásielka nespĺňa podmienky pre doručenie do parcelboxu, tento spôsob "
+"dopravy sa nezobrazí."
+
+#: includes/DpdParcelShopShippingMethod.php:169
+msgid "Maximum weight"
+msgstr "Maximálna hmotnosť"
+
+#: includes/DpdParcelShopShippingMethod.php:176
+msgid "Maximum weight for Alzabox"
+msgstr "Maximálna hmotnosť pre Alzabox"
+
+#: includes/DpdParcelShopShippingMethod.php:183
+msgid "Maximum weight for Slovenska Posta box"
+msgstr "Maximálna hmotnosť pre box Slovenskej Pošty"
+
+#: includes/DpdParcelShopShippingMethod.php:190
+msgid "Setting the dimension limits for packages"
+msgstr "Nastavenie rozmerových limitov pre balíky"
+
+#: includes/DpdParcelShopShippingMethod.php:191
+msgid ""
+"If the shipment does not meet the conditions for delivery in a box, this "
+"shipping method will not be displayed."
+msgstr ""
+"Ak zásielka nespĺňa podmienky pre doručenie do parcelboxu, tento spôsob "
+"dopravy sa nezobrazí."
+
+#: includes/DpdParcelShopShippingMethod.php:198
+msgid "Maximum width"
+msgstr "Maximálna šírka"
+
+#: includes/DpdParcelShopShippingMethod.php:203
+msgid "Maximum height"
+msgstr "Maximálna výška"
+
+#: includes/DpdParcelShopShippingMethod.php:208
+msgid "Maximum length"
+msgstr "Maximálna dĺžka"
+
+#: includes/DpdParcelShopShippingMethod.php:213
+msgid "Maximum width for Alzabox"
+msgstr "Maximálna šírka pre Alzabox"
+
+#: includes/DpdParcelShopShippingMethod.php:218
+msgid "Maximum height for Alzabox"
+msgstr "Maximálna výška pre Alzabox"
+
+#: includes/DpdParcelShopShippingMethod.php:223
+msgid "Maximum length for Alzabox"
+msgstr "Maximálna dĺžka pre Alzabox"
+
+#: includes/DpdParcelShopShippingMethod.php:228
+msgid "Maximum width for Slovenska Posta box"
+msgstr "Maximálna šírka pre box Slovenskej Pošty"
+
+#: includes/DpdParcelShopShippingMethod.php:233
+msgid "Maximum height for Slovenska Posta box"
+msgstr "Maximálna výška pre box Slovenskej Pošty"
+
+#: includes/DpdParcelShopShippingMethod.php:238
+msgid "Maximum length for Slovenska Posta box"
+msgstr "Maximálna dĺžka pre box Slovenskej Pošty"
+
+#: includes/DpdParcelShopShippingMethod.php:243
+msgid "Disallow Shops"
+msgstr "Zakázať odberné miesta"
+
+#: includes/DpdParcelShopShippingMethod.php:247
+msgid "If checked, DPD Pickup shops will be disabled."
+msgstr "Ak je začiarknuté, všetky DPD Pickup odberné miesta budú zakázané."
+
+#: includes/DpdParcelShopShippingMethod.php:250
+msgid "Disallow Lockers"
+msgstr "Zakázať samoobslužné boxy"
+
+#: includes/DpdParcelShopShippingMethod.php:254
+msgid "If checked, all locker types will be disabled."
+msgstr "Ak je začiarknuté, všetky samoobslužné boxy budú zakázané."
+
+#: includes/DpdParcelShopShippingMethod.php:257
+msgid "Disallow DPD Pickup Stations"
+msgstr "Zakázať DPD Pickup samoobslužné boxy"
+
+#: includes/DpdParcelShopShippingMethod.php:261
+msgid "If checked, DPD Pickup Stations will be disabled."
+msgstr "Ak je začiarknuté, samoobslužné boxy DPD Pickup budú zakázané."
+
+#: includes/DpdParcelShopShippingMethod.php:264
+msgid "Disallow Slovenská Pošta Boxes"
+msgstr "Zakázať samoobslužné boxy Slovenskej Pošty"
+
+#: includes/DpdParcelShopShippingMethod.php:268
+msgid "If checked, Slovenská Pošta boxes will be disabled."
+msgstr "Ak je začiarknuté, samoobslužné boxy Slovenskej Pošty budú zakázané."
+
+#: includes/DpdParcelShopShippingMethod.php:271
+msgid "Disallow Alza Boxes"
+msgstr "Zakázať Alza samoobslužné boxy"
+
+#: includes/DpdParcelShopShippingMethod.php:275
+msgid "If checked, Alza Boxes will be disabled."
+msgstr "Ak je začiarknuté, samoobslužné Alza boxy budú zakázané."
+
+#: includes/Order.php:52
+#, php-format
+msgid "Order %d is already exported to DPD."
+msgstr "Objednávka %d už bola exportovaná do DPD."
+
+#: includes/Order.php:68
+#, php-format
+msgid "Order %d was successfully exported"
+msgstr "Objednávka %d bola úspešne exportovaná"
+
+#: includes/Order.php:105
+#, php-format
+msgid "Order %d export data was successfully reset"
+msgstr "Údaje exportu pre objednávku %d boli úspešne resetované"
+
+#: includes/Order.php:404
+#, php-format
+msgid ""
+"Order %d does not have the package number and its label couldn't be printed."
+msgstr "Objednávka %d nemá číslo balíka a jej štítok nebolo možné vytlačiť."
+
+#: includes/Order.php:414
+msgid "None of your selected orders have a package number."
+msgstr "Žiadna z vami vybratých objednávok nemá číslo balíka."
+
+#: includes/Order.php:423
+#, php-format
+msgid ""
+"Something went wrong and the pdf content is not valid. Please check orders "
+"%s if the package numbers are correct."
+msgstr ""
+"Vyskytol sa problém a obsah súboru PDF nie je platný. Skontrolujte "
+"objednávky %s, či sú ich čísla balíkov správne."
+
+#: includes/OrderList.php:43
+msgid "DPD Bulk Export"
+msgstr "DPD Hromadný Export"
+
+#: includes/OrderList.php:44
+msgid "DPD Bulk Download Labels"
+msgstr "DPD Hromadné stiahnutie štítkov"
+
+#: includes/OrderList.php:92 includes/OrderMetabox.php:165
+msgid "Export to DPD"
+msgstr "Export do DPD"
+
+#: includes/OrderList.php:126
+msgid "Export"
+msgstr "Export"
+
+#: includes/OrderList.php:136
+msgid "Download label"
+msgstr "Stiahnuť štítok"
+
+#: includes/OrderList.php:140 includes/OrderMetabox.php:61
+msgid "Package number"
+msgstr "Číslo balíka"
+
+#: includes/OrderList.php:159
+#, php-format
+msgid "Wrong order ID %d"
+msgstr "Zlé ID objednávky %d"
+
+#: includes/OrderMetabox.php:30
+msgid "DPD Export"
+msgstr "DPD Export"
+
+#: includes/OrderMetabox.php:54
+msgid "Export Status"
+msgstr "Stav exportu"
+
+#: includes/OrderMetabox.php:54
+msgid "Success"
+msgstr "Úspech"
+
+#: includes/OrderMetabox.php:57
+msgid "Download DPD label"
+msgstr "Stiahnuť DPD štítok"
+
+#: includes/OrderMetabox.php:64
+msgid "Reset"
+msgstr "Resetovať"
+
+#: includes/OrderMetabox.php:97
+msgid "ID Bank account"
+msgstr "ID bankového účtu"
+
+#: includes/OrderMetabox.php:117
+msgid "ID of the collection point"
+msgstr "ID zberného miesta"
+
+#: includes/OrderMetabox.php:137
+msgid "Shipping product"
+msgstr "Preprava produktu"
+
+#: includes/OrderMetabox.php:149
+msgid "Notification"
+msgstr "Notifikácie"
+
+#: includes/OrderMetabox.php:154 includes/OrderMetabox.php:159
+#, php-format
+msgid "Reference %d"
+msgstr "Referencia %d"
+
+#: includes/Shipping.php:76
+msgid "You have to choose a parcelshop."
+msgstr "Musíte si vybrať DPD Pickup/Pickup Station."
+
+#: templates/chosen-parcelshop-order-data.php:17
+msgid "Chosen Parcelshop"
+msgstr "Vybraný DPD Pickup/Pickup Station"
+
+#: templates/chosen-parcelshop-order-data.php:21
+msgid "Parcelshop ID"
+msgstr "ID DPD Pickup/Pickup Station"
+
+#: templates/chosen-parcelshop-order-data.php:25
+msgid "Parcelshop PUS ID"
+msgstr "PUS ID DPD Pickup/Pickup Station"
+
+#: templates/chosen-parcelshop-order-data.php:29
+msgid "Parcelshop name"
+msgstr "Názov DPD Pickup/Pickup Station"
+
+#: templates/chosen-parcelshop-order-data.php:33
+msgid "Parcelshop street"
+msgstr "Ulica DPD Pickup/Pickup Station"
+
+#: templates/chosen-parcelshop-order-data.php:37
+msgid "Parcelshop zip"
+msgstr "PSČ DPD Pickup/Pickup Station"
+
+#: templates/chosen-parcelshop-order-data.php:41
+msgid "Parcelshop city"
+msgstr "Mesto DPD Pickup/Pickup Station"
+
+#: templates/chosen-parcelshop-order-data.php:45
+msgid "Parcelshop country"
+msgstr "Krajina DPD Pickup/Pickup Station"
+
+#: templates/chosen-parcelshop-order-data.php:47
+msgid "Parcelshop country code"
+msgstr "Kód krajiny DPD Pickup/Pickup Station"
+
+#: templates/parcelshop-popup.php:18
+msgid "City"
+msgstr "Mesto"
+
+#: templates/parcelshop-popup.php:23
+msgid "Zip"
+msgstr "PSČ"
+
+#: templates/parcelshop-popup.php:28
+msgid "Country"
+msgstr "Krajina"
+
+#: templates/parcelshop-popup.php:39
+msgid "Search"
+msgstr "Hľadať"
+
+#: templates/parcelshop-popup.php:49
+#: templates/parcelshop-shipping-method-content.php:57
+#: templates/parcelshop-shipping-method-content.php:59
+msgid "Choose parcelshop"
+msgstr "Vybrať DPD Pickup/Pickup Station"
+
+#: templates/parcelshop-shipping-method-content.php:64
+msgid "Selected parcelshop"
+msgstr "Vybraná DPD Pickup/Pickup Station"
+
+#: wc-dpd.php:55
+#, php-format
+msgid ""
+"DPD SK for WooCommerce plugin requires WooCommerce version %s or higher to "
+"work properly. Please update WooCommerce to use this plugin."
+msgstr ""
+"Plugin DPD SK pre WooCommerce vyžaduje na správne fungovanie WooCommerce "
+"verziu %s alebo vyššiu. Ak chcete používať tento doplnok, aktualizujte "
+"WooCommerce."
+
+#~ msgid "DPD SK for WooCommerce"
+#~ msgstr "DPD pre WooCommerce"
+
+#, fuzzy
+#~| msgid "DPD plugin for WooCommerce which communicates with API DPD"
+#~ msgid ""
+#~ "DPD SK plugin for WooCommerce which exports orders to the DPD through "
+#~ "their API"
+#~ msgstr "DPD plugin pre woocommerce, ktorý komunikuje s DPD API"
+
+#, fuzzy
+#~| msgid "Country"
+#~ msgid "count"
+#~ msgstr "Krajina"
+
+#, fuzzy
+#~| msgid "Package number"
+#~ msgid "number"
+#~ msgstr "Číslo balíka"
+
+#~ msgid "The name of the carrier"
+#~ msgstr "Meno prepravcu"
+
+#~ msgid "Shipping method title"
+#~ msgstr "Názov spôsobu dopravy"
+
+#~ msgid "The text the customer sees"
+#~ msgstr "Text, ktorý vidí zákazník"
+
+#~ msgid "DPD parcelshop title"
+#~ msgstr "Názov spôsobu dopravy"
+
+#~ msgid "Heavy parcel"
+#~ msgstr "Ťažký balík"
+
+#~ msgid "Light package "
+#~ msgstr "Ľahký balík"
+
+#~ msgid "Not exported"
+#~ msgstr "Neexportované"
